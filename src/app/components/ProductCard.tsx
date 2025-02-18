@@ -1,9 +1,12 @@
 import React from 'react'
 import AddToCard from './AddToCard';
+import styles from './ProductCard.module.css';
+
+styles.card
 
 const ProductCard = () => {
   return (
-    <div>
+    <div className='styles.card'>
         <AddToCard/>
     </div>
   )
